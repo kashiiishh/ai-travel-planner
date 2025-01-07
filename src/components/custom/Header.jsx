@@ -96,6 +96,14 @@ function Header() {
                 {user ? (
                     <div className="flex items-center gap-3">
                         {/* Redirect to /my-trips on click */}
+
+                        <Button
+                            variant="outline"
+                            className="rounded-full"
+                            onClick={() => navigation("/create-trip")}
+                        >
+                            + Create Trips
+                        </Button>
                         <Button
                             variant="outline"
                             className="rounded-full"
@@ -103,6 +111,7 @@ function Header() {
                         >
                             My Trips
                         </Button>
+
 
                         <Popover>
                             <PopoverTrigger className="p-0 m-0 border-0 shadow-none background-none rounded-full">

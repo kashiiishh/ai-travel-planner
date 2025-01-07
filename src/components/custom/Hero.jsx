@@ -13,7 +13,7 @@ function Hero() {
             <Link to={'/create-trip'}>
                 <Button>Get Started, It's Free!</Button>
             </Link>
-            <img src='/landing.png' className='-mt-20'></img>
+            <img src='/landing.png' className='-mt-20.5'></img>
 
         </div>
     )
